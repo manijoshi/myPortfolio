@@ -1,0 +1,77 @@
+body{
+    font-family: 'Courgette', cursive;
+    font-family: 'Merienda', cursive;
+}
+p{
+    text-align: left;
+    padding: 1% 15% 2% 15%;
+}
+#skills h1{
+    padding-top: 5%;
+}
+#l_skills{
+    padding-top: 5%;
+}
+#l_skills li{
+    padding-top: 1%;
+    float: right;
+    padding-right: 44%;
+    text-align: left;
+    list-style-type: none;
+}
+
+#contact{
+    padding-top: 5%;   
+    padding-bottom: 12%;
+}
+#contact h1{
+    padding-bottom: 4%;
+}
+#co{
+    padding-left: 15%;
+}
+i:hover{
+    transform: scale(1.5,1.5);
+}
+
+.fa-envelope{
+    color:rgb(82, 35, 35);
+}
+.fa-mobile-alt{
+    color: rgb(188, 143, 178);
+}
+.fa-github{
+    color: black;
+}
+
+.gb{
+    float:right;
+    
+}
+
+span{
+    padding-right: 2%;
+}
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 8.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
